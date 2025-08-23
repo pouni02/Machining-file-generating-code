@@ -2,7 +2,7 @@
 """
 Created on Wed Nov 22 16:19:48 2023
 
-@author: NADARADJANE Pounida - DUPRAT Robin GM4B
+@author: pouni02
 """
 
 # Création d'une interface graphique par l'utilisation de l'utilitaire Transformation
@@ -33,8 +33,6 @@ class  MainWindow(QMainWindow):
         # Définition du titre de la fenêtre
         self.setWindowTitle("Transformation")
         
-        # On va commencer par créer des blocs, un widget : élément de texte, un bouton
-        # self définit un element qui, definit l'étendue de la variable, des objets que seule la fonction peut y accéder, restreindre l'utilisation de l'objet à la variable
         # On va créer un widget de formulaire, l'utilisateur pourra taper son nom, on a crée un formulaire, champ de texte
         
         self.selection_fichiers = WidgetSelectionFichiers()
@@ -75,9 +73,6 @@ class  MainWindow(QMainWindow):
         label_Ytranslat = QLabel("Y Translation (en mm)") # Création d'un champ Translation selon Y
         self.Ytranslat = QDoubleSpinBox() # Champ pour rentrer la valeur (float)
         self.Ytranslat.setMaximum(float("inf")) # On fixe la valeur maximale selon y à + l'infini pour permettre à l'utilisateur de rentrer les valeurs qu'il veut (en cas d'erreur, il y aura un message d'erreur pour le guider)
-        
-        
-        
         
         # On crée un bouton pour générer le nouveau fichier
         self.button = QPushButton("Générer fichier(s)")
@@ -396,4 +391,5 @@ if __name__ == '__main__':
     
     # Run the main Qt loop
     sys.exit(app.exec())
+
     
