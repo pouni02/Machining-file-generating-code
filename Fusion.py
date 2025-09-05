@@ -2,7 +2,6 @@
 """
 Created on Wed Nov 22 14:34:21 2023
 
-@author: 28603172
 """
 
 
@@ -84,3 +83,4 @@ if __name__ == '__main__':
     
     sys.exit(app.exec())
     
+
