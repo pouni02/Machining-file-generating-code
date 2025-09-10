@@ -70,7 +70,7 @@ The stock (305×305 mm) is displayed as a bounding box.
 
 Toolpaths are drawn in different colors (depending on passes or files).
 
-🛠️ Technologies
+Technologies used : 
 
 Python (NumPy, Matplotlib)
 
