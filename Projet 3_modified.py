@@ -2,7 +2,7 @@
 """
 Created on Wed Nov 22 16:19:48 2023
 
-@author: NADARADJANE Pounida - DUPRAT Robin GM4B
+
 """
 
 # création d'une interface graphique par l'utilisation de l'utilitaire Transformation : Essai
@@ -431,4 +431,5 @@ if __name__ == '__main__':
     window.show()
     
     #Run the main Qt loop
+
     sys.exit(app.exec())
