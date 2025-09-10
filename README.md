@@ -60,7 +60,7 @@ Makes full use of the stock dimensions.
 
 Reduces operator workload and machining time.
 
-🔹 Toolpath Visualization
+ --> Toolpath Visualization : 
 
 Purpose: Allow the operator to visualize toolpaths before machining, to validate part placement and stock usage.
 
